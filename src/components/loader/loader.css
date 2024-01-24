@@ -1,0 +1,18 @@
+.loader {
+  /* display: none; */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateXY(-60%, -50%);
+  height: 40px;
+  width: 40px;
+  border: 5px solid #333;
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

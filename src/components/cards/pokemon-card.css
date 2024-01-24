@@ -1,0 +1,311 @@
+* {
+  font-family: 'poppins', sans-serif;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}
+.rock-background {
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+.ghost-background {
+  background-image: linear-gradient(to top, #b7b7b8 0%, #e2ebf0 100%);
+}
+.dark-background {
+  background-image: linear-gradient(to top, #b7b7b8 0%, #e2ebf0 100%);
+}
+.steel-background {
+  background-image: linear-gradient(to top, #898990 0%, #c0d4de 100%);
+}
+.electric-background {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.bug-background {
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+.poison-background {
+  background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+}
+.psychic-background {
+  background-image: linear-gradient(to bottom, #663a50 0%, #dcc8ea 100%);
+}
+.normal-background {
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+}
+.fire-background {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.dragon-background {
+  background-image: linear-gradient(120deg, #f9d423 0%, #f6d365 100%);
+}
+.grass-background {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.water-background {
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+.ground-background {
+  background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+}
+.fighting-background {
+  background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+}
+.ice-background {
+  background-image: linear-gradient(-225deg, #87eaf1ff 0%, #ffe6fa 100%);
+}
+.flying-background {
+  background-image: linear-gradient(
+    -225deg,
+    rgb(59, 205, 215) 0%,
+    #a0f5ed 100%
+  );
+}
+.fairy-background {
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+}
+
+/* button css */
+.grassBtn {
+  background-image: linear-gradient(120deg, #ace034, #3bf154);
+}
+.grassBtn:hover {
+  background-image: linear-gradient(320deg, #ace034, #3bf154);
+}
+
+.rockBtn {
+  background-image: linear-gradient(120deg, #c79081, #dfa579);
+}
+.rockBtn:hover {
+  background-image: linear-gradient(320deg, #c79081, #dfa579);
+}
+
+.ghostBtn {
+  background-image: linear-gradient(120deg, #b7b7b8, #e2ebf0);
+}
+.ghostBtn:hover {
+  background-image: linear-gradient(320deg, #b7b7b8, #e2ebf0);
+}
+
+.darkBtn {
+  background-image: linear-gradient(120deg, #b7b7b8, #e2ebf0);
+}
+.darkBtn:hover {
+  background-image: linear-gradient(320deg, #b7b7b8, #e2ebf0);
+}
+
+.steelBtn {
+  background-image: linear-gradient(120deg, #7b7b83, #c8e2ef);
+}
+.steelBtn:hover {
+  background-image: linear-gradient(320deg, #7b7b83, #c8e2ef);
+}
+
+.fireBtn {
+  background-image: linear-gradient(120deg, #f2c83ca2, #f17c5c);
+}
+.fireBtn:hover {
+  background-image: linear-gradient(320deg, #f2c83ca2, #f17c5c);
+}
+
+.dragonBtn {
+  background-image: linear-gradient(120deg, #f5b70d, #fbd34e);
+}
+.dragonBtn:hover {
+  background-image: linear-gradient(320deg, #f5b70d, #fbd34e);
+}
+
+.waterBtn {
+  background-image: linear-gradient(120deg, #77ecf5, #4592fd);
+}
+.waterBtn:hover {
+  background-image: linear-gradient(320deg, #77ecf5, #4592fd);
+}
+
+.bugBtn {
+  background-image: linear-gradient(120deg, #eab878, #ce8c31);
+}
+.bugBtn:hover {
+  background-image: linear-gradient(320deg, #eab878, #ce8c31);
+}
+
+.normalBtn {
+  background-image: linear-gradient(120deg, #f6b2e8, #edd7e8);
+}
+.normalBtn:hover {
+  background-image: linear-gradient(320deg, #f6b2e8, #edd7e8);
+}
+
+.iceBtn {
+  background-image: linear-gradient(120deg, #87eaf1ff, #edd7e8);
+}
+.iceBtn:hover {
+  background-image: linear-gradient(320deg, #87eaf1ff, #edd7e8);
+}
+
+.flyingBtn {
+  background-image: linear-gradient(120deg, rgb(80, 192, 200), #a5f6f3);
+}
+.flyingBtn:hover {
+  background-image: linear-gradient(320deg, rgb(80, 192, 200), #a5f6f3);
+}
+
+.poisonBtn {
+  background-image: linear-gradient(120deg, #e168a7, #bfd9fe);
+}
+.poisonBtn:hover {
+  background-image: linear-gradient(320deg, #e168a7, #bfd9fe);
+}
+
+.psychicBtn {
+  background-image: linear-gradient(120deg, #663a50, #eccde6);
+}
+.psychicBtn:hover {
+  background-image: linear-gradient(320deg, #663a50, #eccde6);
+}
+
+.groundBtn {
+  background-image: linear-gradient(120deg, #813017, #cd8843 74%);
+}
+.groundBtn:hover {
+  background-image: linear-gradient(320deg, #813017, #cd8843 74%);
+}
+
+.fightingBtn {
+  background-image: linear-gradient(120deg, #813017, #cd8843 74%);
+}
+.fightingBtn:hover {
+  background-image: linear-gradient(320deg, #813017, #cd8843 74%);
+}
+
+.fairyBtn {
+  background-image: linear-gradient(120deg, #ff898d, #fcc4ea 99%, #fecfef);
+}
+.fairyBtn:hover {
+  background-image: linear-gradient(320deg, #ff898d, #fcc4ea 99%, #fecfef);
+}
+
+.electricBtn {
+  background-image: linear-gradient(120deg, #ff3700, #ffd500);
+}
+.electricBtn:hover {
+  background-image: linear-gradient(320deg, #ff3700, #ffd500);
+}
+
+.pokemon-image {
+  height: 200px;
+  width: 180px;
+}
+
+.pokemon-card-wrapper {
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 1rem;
+}
+.pokemon-id-container {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  padding: 5px;
+}
+.pokemon-name {
+  margin: 5px;
+  text-decoration: underline;
+}
+#pokemon-type {
+  font-weight: 600;
+}
+.pokemon-card-container {
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  transition: trandform 0.5 ease;
+  transition-delay: 0.1s;
+}
+
+.pokemon-card-container:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+
+.stats-wrapper {
+  top: 12em;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  /* height: 350px;
+  width: 700px; */
+  padding: 40px;
+  gap: 25px;
+  border: 2px solid black;
+}
+.mini-stats-wrapper {
+  display: flex;
+  padding: 20px;
+}
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.loadMoreBtn {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  background-color: #76daff;
+  background-image: linear-gradient(315deg, #76daff 0%, #fcd000 74%);
+  border-radius: 6px;
+  border: 1px solid #c6c6c6;
+  color: #444;
+  padding: 0.7rem 1.2rem;
+  min-width: 20%;
+  margin: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+.loadMoreBtn:hover {
+  background-color: #ff3700;
+  background-image: linear-gradient(315deg, #ff3700 0%, #ffed00 74%);
+}
+
+@media only screen and (max-width: 768px) {
+  .stats-wrapper {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    gap: 15px;
+    border: 2px solid black;
+    text-align: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .stats-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .mini-stats-wrapper {
+    display: flex;
+    padding: 10px;
+  }
+}
