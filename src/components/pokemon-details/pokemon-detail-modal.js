@@ -11,7 +11,7 @@ export function PokemonDetailModal({ pokemon, handleKnowMore }) {
 
   return (
     <div className={`stats-wrapper ${type}-background`}>
-      <div className={`stats-container`}>
+      <div className={`stats-container-main`}>
         <img
           className="pokemon-image"
           src={imageUrl ? imageUrl : 'https://i.imgur.com/UvVWR.png'}
